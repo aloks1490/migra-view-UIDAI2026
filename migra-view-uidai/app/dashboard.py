@@ -14,7 +14,9 @@ st.title("📊 Migra-View: Aadhaar Enrolment & Update Insights")
 # 2. Data Loading
 @st.cache_data
 def get_data():
-    path = '/Users/alokranjansingh/Desktop/uidaiiiii/migra-view-uidai/data/processed/processed_aadhaar_data.csv'
+    path = os.path.join(os.path.dirname(__file__), "..", "data", "processed", "processed_aadhaar_data.csv")
+    path = os.path.abspath(path)
+
     return load_aadhaar_data(path)
 
 df = get_data()
