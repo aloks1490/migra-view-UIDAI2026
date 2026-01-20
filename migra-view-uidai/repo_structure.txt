@@ -1,0 +1,17 @@
+migra-view-uidai/
+├── data/
+│   ├── raw/                # Original datasets from UIDAI
+│   └── processed/          # Merged and cleaned CSVs
+├── notebooks/              # Ordered for the jury to follow
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_eda_and_uii.ipynb
+│   └── 03_predictive_modeling.ipynb
+├── src/                    # Refactored helper functions
+│   ├── __init__.py
+│   ├── data_utils.py       # Functions for loading/cleaning
+│   └── plot_utils.py       # Functions for generating maps
+├── app/
+│   └── dashboard.py        # Main Streamlit application code
+├── docs/                   # Presentation slides and report
+├── requirements.txt        # Python dependencies (Pandas, Streamlit, Scikit-learn)
+└── README.md               # Project overview, setup, and key insights
