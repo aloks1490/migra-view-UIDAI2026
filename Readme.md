@@ -9,6 +9,7 @@ By leveraging anonymized Aadhaar enrolment and update datasets, Migra-View ident
 
 It transforms raw administrative data into actionable **Micro-Trends**, enabling the government to deploy resources where they are needed most — *before the surge happens*.
 
+Checkout the [streamlit](https://migra-view-uidai2026-uhwvh96yhq2grg5cb6hf3v.streamlit.app/) dashboard.
 ---
 
 ## 🚀 Key Value Propositions
@@ -120,4 +121,5 @@ streamlit run app/dashboard.py
 
 ## 🏛 Developed for the UIDAI Data Hackathon 2026  
 **Unlocking the potential of data for a better-governed India.**
+
 
